@@ -1,0 +1,33 @@
+*{
+    font-family: sans-serif;
+    font-size:12pt;
+}
+
+aside{
+    position:fixed;
+    left:0;
+    top:0;
+    width:200px;
+    height:100%;
+    background-color: lightseagreen;
+    text-align: center;
+    overflow: auto;
+}
+main{
+    position:fixed;
+    left:200px;
+    top:0;
+    right:0;
+    height:100%;
+    background-color: white;
+    overflow: auto;
+    padding:2em;
+}
+
+button,input,select{
+    width:90%;
+}
+
+.seleccionado{
+    border:blue 5px solid;
+}
